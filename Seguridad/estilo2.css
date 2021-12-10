@@ -1,0 +1,60 @@
+
+.flex-container {
+  display: flex;
+  height: 2400px;
+  background-image: url('https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX10990589.jpg');
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
+
+.text{
+  display: block;
+  border-radius: 25px;
+  text-align: center;
+  border-color: red;
+  border-width: 100%;
+  width: 100%;
+  background-color: #F3F3F3;
+  height: 2200px;
+  margin: 10px 250px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+.h1{
+  float: left;
+  text-align: left;
+  margin-left: 35px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin-top: 70px;
+}
+
+.H1{
+  display: block;
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+
+.párrafos {
+  height: 100%;
+  text-align:left;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 600;
+  padding-top: 140px;
+  padding-left: 35px;
+  padding-right: 100px;
+  line-height: 30px
+}
+
+.img1{
+  position: relative;
+  display: block;
+  weight: 100%;
+  align-items: center;
+  width: 500px;
+  padding-left: 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
