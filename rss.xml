@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+<channel>
+     <title>Instalacion de Software</title>
+     <link>https://neru90.github.io/instalacionsoftwaremari0/</link>
+     <description>Instalacion de Software</description>
+    <category>tutorial/ubuntu/windows/software/instalacion</category>
+    <copyright>Mario Caro García 1º ASIR</copyright>
+    <item>
+      <title>Software</title>
+      <link>https://neru90.github.io/instalacionsoftwaremari0/</link>
+      <description>Instalación de Software</description>
+    </item>
+    <item>
+        <title>Seguridad</title>
+        <link>https://neru90.github.io/instalacionsoftwaremari0/Seguridad/antivirus.html</link>
+        <description>Guía sobre como descargar e instalar Avast</description>
+    </item>
+    <item>
+        <title>Portables</title>
+        <link>https://neru90.github.io/instalacionsoftwaremari0/Portables/portables.html</link>
+        <description>Guía sobre como descargar e instalar draw.io</description>
+    </item>
+    <item>
+        <title>Recuperacion</title>
+        <link>https://neru90.github.io/instalacionsoftwaremari0/Seguridad/antivirus.html</link>
+        <description>Guía sobre como instalar programas de recuperación de archivos</description>
+    </item>
+</channel>
+</rss>
