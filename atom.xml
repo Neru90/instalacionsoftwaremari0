@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
+  <updated>2022-01-23T19:06:00+01:00</updated>
+  <id>https://neru90.github.io/instalacionsoftwaremari0/</id>
+  <title>Instalación de Software FHW</title>
+  <link rel="alternate" href="https://neru90.github.io/instalacionsoftwaremari0/atom.xml"/>
+  <author>
+    <name>Mario Caro García</name>
+    <email>cagama_aliesma20@iesmedinaazahara.es</email>
+  </author>
+  <entry>
+    <link rel="alternate" href="https://neru90.github.io/instalacionsoftwaremari0/Portables/portables.html"/>
+    <id>https://neru90.github.io/instalacionsoftwaremari0/Portables/portables.html</id>
+    <title>Instalación de portables</title>
+    <summary>En este artículo encontrarás información sobre como descargar e instalar Draw.io</summary>
+    <author>
+      <name>Mario Caro García</name>
+      <email>cagama_aliesma20@iesmedinaazahara.es</email>
+    </author>
+    <updated>2022-01-23T19:07:00+01:00</updated>
+  </entry>
+  <entry>
+    <link rel="alternate" href="https://neru90.github.io/instalacionsoftwaremari0/Recuperación/recuperación.html"/>
+    <id>https://neru90.github.io/instalacionsoftwaremari0/</id>
+    <title>Instalación de programas de recuperación</title>
+    <summary>En este artículo encontrarás información sobre como descargar e instalar Draw.io</summary>
+    <author>
+      <name>Mario Caro García</name>
+      <email>cagama_aliesma20@iesmedinaazahara.es</email>
+    </author>
+    <updated>2022-01-23T19:08:00+01:00</updated>
+  </entry>
+  <entry>
+    <link rel="alternate" href="https://neru90.github.io/instalacionsoftwaremari0/Seguridad/antivirus.html"/>
+    <id>https://neru90.github.io/instalacionsoftwaremari0/Seguridad/antivirus.html</id>
+    <title>Instalación de Avast Free Antivirus</title>
+    <summary>En este artículo encontrarás información sobre como descargar e instalar Avast</summary>
+    <author>
+      <name>Mario Caro García</name>
+      <email>cagama_aliesma20@iesmedinaazahara.es</email>
+    </author>
+    <updated>2022-01-23T19:09:00+01:00</updated>
+  </entry>
+  <entry>
+    <link rel="alternate" href="https://neru90.github.io/instalacionsoftwaremari0/Recuperación/recuperación.html"/>
+    <id>https://neru90.github.io/instalacionsoftwaremari0/</id>
+    <title>Instalación de R-Undelete y como clonar equipos con Clonzeilla</title>
+    <summary>En este artículo encontrarás información sobre como recuperar datos de tu equipo y como clonarlo con Clonezilla</summary>
+    <author>
+      <name>Mario Caro García</name>
+      <email>cagama_aliesma20@iesmedinaazahara.es</email>
+    </author>
+    <updated>2022-01-23T19:10:00+01:00</updated>
+  </entry>
+</feed>
