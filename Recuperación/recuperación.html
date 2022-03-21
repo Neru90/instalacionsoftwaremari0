@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="estilo2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat+Alternates:ital,wght@1,200&display=swap" rel="stylesheet">
+    <title>Página</title>
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+    showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+    showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    }
+    </script>
+  </head>
+  <body>
+        <h1 class="h1">Cómo descargar e instalar R-Undelete</h1>
+        <div class="párrafos">
+        <p>R-Undelete es una versión gratuita de R-Studio que utiliza e mismo tipo de tecnología para recuperación de datos. Para descargarlo, debemos hacer click en este botón:</p>
+          <img class="img2" src="undelete1.png" alt=""></img>
+          <p>Le aparecerá una ventana emergente donde podrá elegir la localización del instalador de R-Undelete en su dispositivo. Seguidamente, le daremos doble click al archivo descargado para iniciar la instalación. Lo primero será seleccionar el idioma</p>
+          <img class="img2" src="undelete2.png" alt=""></img>
+          <p>Aparecerá la siguiente advertencia, por la cual nos recomienda instalar el programa en un medio extraíble para no sobreescribir los datos del disco del sistema. En este caso, lo instalaré en el disco local C:</p>
+          <img class="img2" src="undelete3.png" alt=""></img>
+          <p>Pulsamos siguiente y, después, nos dejará elegir la ruta de instalación. En mi caso dejaré la ruta que aparece por defecto.</p>
+          <img class="img2"src="undelete4.png" alt=""></img>
+          <p>Por último, podremos elegir donde descargar el acceso directo del programa. En mi caso no descargaré acceso directo. Para concluir la instalación, hacemos click en "Instalar"</p>
+          <img class="img2"src="undelete5.png" alt=""></img>
+          <div>
+          <img class="icon" src="clonezilla.png">
+          <h1 class="h12">Copias de seguridad con Clonezilla:</h1>
+          </div>
+          <p>Clonezilla es un software libre de recuperación de una imagen creada en un sistema operativo. Tiene diversas funcionalidades, como crear una imagen del sistema o eliminarla o, por ejemplo, eliminar una partición</p>
+          <p>En esta sección aprenderás desde cero a como crear una imagen de tu sistema operativo para posteriormente recuperarla.</p>
+          <div>
+          <img class="icon" src="rufus.png">
+          <h1 class="h12">RUFUS:</h1>
+          </div>
+          <p>Con la ayuda de un disco duro extreno y la aplicación RUFUS, crearemos un pendrive bootable en el cual instalaremos Clonezilla. De esta forma, accederemos a la página de <a href="https://clonezilla.org/downloads.php">Clonezilla</a> y daremos click en "alternative_stable"</p>
+          <img class="img2" src="./CAPTURAS_CLONEZILLA/rufus_clonezilla/1.png" alt=""></img>
+          <p>El link nos redirigirá a la siguiente página, donde debemos seleccionar el file type "iso" y hacer click en "download"</p>
+          <img class="img2" src="./CAPTURAS_CLONEZILLA/rufus_clonezilla/2.png" alt=""></img>
+          <p>En este punto ya tendremos descargados los archivos necesarios para la instalación, los cuales debemos descomprimir en una carpeta. A continuación, accederemos a la página de <a href="https://rufus.ie/es/">RUFUS</a> para su posterior descarga</p>
+          <img class="img2" src="./CAPTURAS_CLONEZILLA/rufus_clonezilla/3.png" alt=""></img>
+          <p>Una vez descargado, abrimos RUFUS y lo configuramos de la siguiente forma. Debemos seleccionar el ISO descargado anteriormente. Cabe mencionar que este proceso eliminará todos los datos que tengas en tu pendrive, por lo que debes asegurarte de que está completamente vacío. Dicho esto, daremos click en "EMPEZAR"</p>
+          <img class="img2" src="./CAPTURAS_CLONEZILLA/rufus_clonezilla/5.png" alt=""></img>
+          <p>Para proceder con la creación de la imagen, debemos iniciar el ordenador con el pendrive desde la BIOS. Una vez hecho esto, nos aparecerá la siguiente ventana (dar click en la bola flotante para guía completa paso a paso)<p>
+            <div class="slideshowcontenedor">
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/1.jpeg" class="img2">
+                <div class="textoo">1. Accedemos a la primera sección e iniciamos Clonezilla</div>
+              </div>
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/2.jpeg" class="img2">
+                <div class="textoo"></div>
+              </div>
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/3.jpeg" class="img2">
+                <div class="textoo">3. Después, escogeremos la siguiente opción, la cual nos permitirá crear una imagen del disco o la partición deseada</div>
+              </div>
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/4.jpeg" class="img2">
+                <div class="textoo">4. Después, hay que indicar donde guardaremos la imagen de Clonezilla</div>
+              </div>
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/5.jpeg" class="img2">
+                <div class="textoo">5.Seguidamente, debemos conectar un disco duro externo y esperar a que aparezca el siguiente mensaje en pantalla, el cual confirmará la detección del disco</div>
+              </div>
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/6.jpeg" class="img2">
+                <div class="textoo">6. Ahora elegimos el disco en el cual deseamos crear la imagen</div>
+              </div>
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/7.jpeg" class="img2">
+                <div class="textoo">7. Escogemos "gzip" como opción de compresión</div>
+              </div>
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/8.jpeg" class="img2">
+                <div class="textoo">8. El chequeo del sistema de archivos es opcional, yo lo omito para agilizar el proceso.</div>
+              </div>
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/9.jpeg" class="img2">
+                <div class="textoo">9. En esta sección eligiremos el repositorio de imagenes de Clonezilla</div>
+              </div>
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/10.jpeg" class="img2">
+                <div class="textoo">10. El modo beginner es la opción por defecto y la más adecuada si somos usuarios profanos en Clonezilla</div>
+              </div>
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/11.jpeg" class="img2">
+                <div class="textoo">11. Elegimos la opción de "guardar disco local como imagen"</div>
+              </div>
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/12.jpeg" class="img2">
+                <div class="textoo">12. En este aparto es importante cambiar el nombre que viene por defecto para evitar posibles errores</div>
+              </div>
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/13.jpeg" class="img2">
+                <div class="textoo">13. Aquí elegiremos el disco donde queremos instalar la imagen</div>
+              </div>
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/14.jpeg" class="img2">
+                <div class="textoo">14. Podemos omitir la comprobación del sistema de archivos para agilizar el proceso</div>
+              </div>
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/15.jpeg" class="img2">
+                <div class="textoo">15. Podemos omitir la comprobación de la imagen para agilizar el proceso</div>
+              </div>
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/16.jpeg" class="img2">
+                <div class="textoo">16. Tampoco es necesario cifrar la imagen, por lo que he seleccionado la siguiente opción</div>
+              </div>
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/17.jpeg" class="img2">
+                <div class="textoo">17. Aquí podemos elegir si reinicar o apagar el ordenador cuando Clonezilla termine de crear la imagen</div>
+              </div>
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/18.jpeg" class="img2">
+                <div class="textoo">18. Nos aparecerá este mensaje en la consola en el que se muestra donde se va a guardar la imagen. Ponemos "Y" para confirmar</div>
+              </div>
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/19.jpeg" class="img2">
+                <div class="textoo">19. Una vez hecho esto, aparecerá la siguiente ventana. Solo quedaría esperar a que Clonezilla cree la imagen</div>
+              </div>
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/20.jpeg" class="img2">
+                <div class="textoo">20. Cuando pulsemos "Intro" el proceso habrá finalizado y ya tendremos nuestra imagen creada</div>
+              </div>
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/21.jpeg" class="img2">
+                <div class="textoo">21. Aqui están todos los archivos descargados</div>
+              </div>
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/22.jpeg" class="img2">
+                <div class="textoo">22. Para recuperar esta imagen, debemos elegir la siguiente opción una vez abierto Clonezilla (debemos tener conectado el dispositivo que dispone de dicha imagen)</div>
+              </div>
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/23.jpeg" class="img2">
+                <div class="textoo">23. Elegimos la imagen a recuperar</div>
+              </div>
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/24.jpeg" class="img2">
+                <div class="textoo">24. Ahora, elegimos el disco donde queremos recuperar la imagen</div>
+              </div>
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/25.jpeg" class="img2">
+                <div class="textoo">25. Podemos omitir la comprobación de imagen para agiliar el proceso</div>
+              </div>
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/26.jpeg" class="img2">
+                <div class="textoo">26. Aquí elegiremos lo que deseamos que haga el pc una vez concluida la recuperación</div>
+              </div>
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/27.jpeg" class="img2">
+                <div class="textoo">27. Confirmamos escribiendo "y"</div>
+              </div>
+              <div class="mySlides">
+                <img src="./CAPTURAS_CLONEZILLA/practica1/28.jpeg" class="img2">
+                <div class="textoo">28. Cuando se llene esta barra de carga, la recuperación habrá acabado</div>
+              </div>
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+              </div>
+            </div>
+            <h1 class="h12">Clonación en ubicaciones compartidas</h1>
+            <p>También es posible clonar máquinas en carpetas compartidas. A través de Windows, simplemente debemos crear una nueva carpeta, darle click derecho, ir a la opción "propiedades" y, en la sección "compartir", dar click en "Uso compartido avanzado..." y marcar la casilla "compartir esta carpeta".</p>
+            <img src="./CAPTURAS_CLONEZILLA/practica2/carpetawindows.png" class="img2">
+            <p>A través del comando "ping" en CMD, podemos comprobar si nuestro equipo está conectado al otro pc. Para ello, escribiremos en la consola "ping (ip del pc remoto)". Si obtenemos respuestas, estaremos listos para crear la imagen.</p>
+            <img src="./CAPTURAS_CLONEZILLA/practica2/ping.jpg" class="img2">
+            <p> NOTA: En la imagen anterior se usan IPs de ejemplo. Para la creación de la imagen, utilizaremos otras.</p>
+            <p> En el caso de ubuntu, debemos instalar la utilidad SAMBA, que nos permitirá crear carpetas compartidas. Para ello, debemos escribir en el terminal "sudo apt install samba"</p>
+            <img src="./CAPTURAS_CLONEZILLA/practica2/samba1.png" class="img2">
+            <p> Para crear la carpeta compartida, debemos abrir el archivo "/etc/samba/smb.conf" con el comando "sudo nano /etc/samba/smb.conf" y, al final del archivo, escribir lo siguiente y pulsar "ctrl+O" para guardar:</p>
+            <img src="./CAPTURAS_CLONEZILLA/practica2/samba2.png" class="img2">
+            <p>De la misma forma que en Windows, con el comando "ping" podemos comprobar si tenemos conexión con el ordenador remoto</p>
+            <p>Una vez creada la carpeta compartida, debemos conectar con un cable Ethernet al ordendor servidor y al ordenador cliente. En mi versión de Clonezilla no es necesario escoger posteriormente la conexión cableada, puesto que la detecta automáticamente. En cualquier caso, si Clonezilla nos pregunta qué tipo de conexión queremos utilizar, debemos elegir "conexión cableada". Dicho esto, abrimos Clonezilla desde el pendrive de arranque y escogemos la primera opción.Nos aparecerá la siguiente página</p>
+            <img src="./CAPTURAS_CLONEZILLA/practica2/1.jpeg" class="img2">
+            <p>Escogemos la opción de clonar en servidor de red "Samba"</p>
+            <img src="./CAPTURAS_CLONEZILLA/practica2/2.jpeg" class="img2">
+            <p>Aquí escogí que el protocolo DHCP asignara automáticamente una dirección IP al ordendor del cual deseo crear la copia</p>
+            <img src="./CAPTURAS_CLONEZILLA/practica2/3.jpeg" class="img2">
+            <p>En esta sección debemos escribir el nombre de usuario con el cual accederemos a la carpeta compartida. Cabe destacar que este usuario debe tener acceso a dicha carpeta</p>
+            <img src="./CAPTURAS_CLONEZILLA/practica2/4.jpeg" class="img2">
+            <p>Lo siguiente será escribir el nombre de la carpeta compartida donde queremos que se guarde la copia</p>
+            <img src="./CAPTURAS_CLONEZILLA/practica2/5.jpeg" class="img2">
+            <p>Escogeremos la versión "auto" del protocolo smb</p>
+            <img src="./CAPTURAS_CLONEZILLA/practica2/6.jpeg" class="img2">
+            <p>El modo de seguridad también lo elegimos automáticamente</p>
+            <img src="./CAPTURAS_CLONEZILLA/practica2/7.jpeg" class="img2">
+            <p>Aqui debemos escribir la dirección ip del servidor donde queremos que se guarde la imagen. Se puede averiguar con el comando "ipconfig" en windows y "ifconfig" en linux
+            <img src="./CAPTURAS_CLONEZILLA/practica2/8.jpeg" class="img2">
+            <p>En esta parte seleccionamos el modo principiante</p>
+            <img src="./CAPTURAS_CLONEZILLA/practica2/9.jpeg" class="img2">
+            <p>Ahora, escogemos la opción de "guardar disco local como imagen"</p>
+            <img src="./CAPTURAS_CLONEZILLA/practica2/10.jpeg" class="img2">
+            <p>Aquí elegiremos el nombre de la imagen. ES MUY IMPORTANTE QUE NO SEA EL NOMBRE PREDETERMINADO PARA EVITAR ERRORES, ponle cualquier otro nombre
+            <img src="./CAPTURAS_CLONEZILLA/practica2/11.jpeg" class="img2">
+            <p>Escogemos la compresión zip</p>
+            <img src="./CAPTURAS_CLONEZILLA/practica2/12.jpeg" class="img2">
+            <p>Podemos omitir la comprobación/reparación del sistema de archivos fuente para agilizar el proceso</p>
+            <img src="./CAPTURAS_CLONEZILLA/practica2/13.jpeg" class="img2">
+            <p>Hacemos lo mismo con la comprobación</p>
+            <img src="./CAPTURAS_CLONEZILLA/practica2/14.jpeg" class="img2">
+            <p>Elegimos el disco local de origen</p>
+            <img src="./CAPTURAS_CLONEZILLA/practica2/15.jpeg" class="img2">
+            <p>Posteriormente, eligiremos la opción de NO cifrar la imagen</p>
+            <img src="./CAPTURAS_CLONEZILLA/practica2/16.jpeg" class="img2">
+            <p>Confirmamos escribiendo la letra "y"</p>
+            <img src="./CAPTURAS_CLONEZILLA/practica2/17.jpeg" class="img2">
+            <p>Listo, Clonezilla empezará a crear la imagen local en la carpeta compartida</p>
+            <img src="./CAPTURAS_CLONEZILLA/practica2/18.jpeg" class="img2">
+            <p>Para restaurar la copia creada, al abrir Clonzeilla, elegimos la primera opción y nos aparecerá la siguiente ventana, donde debemos elegir la opción "restoredisk"</p>
+            <img src="./CAPTURAS_CLONEZILLA/practica1/22.jpeg" class="img2">
+            <p>Elegimos la copia que hemos creado anteriormente</p>
+            <img src="./CAPTURAS_CLONEZILLA/practica1/23.jpeg" class="img2">
+            <p>Después, elegimos el disco donde queremos restaurar la imagen</p>
+            <img src="./CAPTURAS_CLONEZILLA/practica1/24.jpeg" class="img2">
+            <p>Yo omitiré la comprobación de imagen para agilizar el proceso</p>
+            <img src="./CAPTURAS_CLONEZILLA/practica1/25.jpeg" class="img2">
+            <p>Aquí escogemos lo que queremos que haga el pc cuando concluya la restauración de la aimgen</p>
+            <img src="./CAPTURAS_CLONEZILLA/practica1/26.jpeg" class="img2">
+            <p>Confirmamos escribiendo la letra "y"</p>
+            <img src="./CAPTURAS_CLONEZILLA/practica1/27.jpeg" class="img2">
+            <p>Listo, Clonzeilla empezará a restaurar la copia de forma remota</p>
+            <img src="./CAPTURAS_CLONEZILLA/practica1/28.jpeg" class="img2">
+          </body>
